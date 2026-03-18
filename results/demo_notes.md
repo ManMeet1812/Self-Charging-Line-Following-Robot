@@ -42,6 +42,9 @@ During implementation and testing, system performance could be affected by:
 
 These factors were important in evaluating system reliability and repeatability.
 
+## Visual Documentation
+Supporting screenshots of the robot test sequence are included in the `images/` folder to document the path layout, robot positioning, and docking behavior during demonstration.
+
 ## Team Contribution Note
 This project was completed collaboratively.
 
