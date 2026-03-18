@@ -1,54 +1,87 @@
-# Autonomous Line-Following Robot with Self-Charging Dock
+# Autonomous Line-Following Robot with Wireless Self-Charging Dock
 
-An Arduino-based robotics project focused on autonomous navigation, battery-aware control, and self-charging behavior through a custom docking system.
+An Arduino-based robotics project that combines **autonomous line following, battery-aware control, docking behavior, and wireless charging** into a single embedded robotic platform.
 
 ## Project Overview
-This project involved the design and development of an autonomous line-following robot capable of tracking a path, monitoring battery status, returning to a docking station when power is low, charging, and resuming operation.
+This project focuses on the design and implementation of an **autonomous line-following robot** capable of:
+- tracking a predefined path using an **IR sensor array**
+- monitoring battery voltage in real time
+- triggering return-to-dock behavior when battery level falls below a threshold
+- docking with a **Qi-based wireless charging system**
+- resuming operation after charging
 
-The system combined robotics, embedded programming, and hardware integration to demonstrate how autonomous mobile robots can be made more reliable and self-sustaining in practical environments.
+The system was developed to demonstrate how robotics, embedded systems, and power management can be integrated to create a more **self-sustaining and autonomous mobile robot**.
+
+## Key Features
+- Autonomous line following using IR-based path sensing
+- Centroid-based tracking for smoother path correction
+- Battery voltage monitoring using Arduino ADC
+- Return-to-dock logic triggered by low battery condition
+- Wireless charging through Qi inductive charging
+- State-based control for navigation, docking, charging, and resume operation
 
 ## Team Contributions
-This project was completed as a team effort.
+This project was completed as a collaborative team effort.
 
-- **Manmeet Kaur** — Software development
-- **Kalu Orji** — Software development
-- **Dhvani Parikh** — Hardware development
-- **Abhirami Chandran** — Hardware development
+### Software Development
+- **Manmeet Kaur**
+- **Kalu Orji**
+
+### Hardware Development
+- **Dhvani Parikh**
+- **Abhirami Chandran**
+
+All team members also contributed to testing, calibration, documentation, and presentation work.
 
 ## My Contribution
 My contribution focused on the **software development** side of the project in collaboration with **Kalu Orji**.
 
-We both worked on the same codebase and contributed through iterative development, testing, debugging, and making different improvements to the robot’s behavior and control logic. Since the software work was highly collaborative, the contributions were shared across the programming, integration, and refinement stages rather than being divided into completely separate modules.
+The software work was completed collaboratively on the same codebase through iterative development, debugging, testing, and refinement rather than through fully separate software modules.
 
-My work included support in areas such as:
+My involvement included:
 - Arduino programming for robot behavior
 - line-following control logic
-- docking and charging-related software behavior
 - battery-aware decision logic
-- testing, debugging, and software refinement
+- docking and charging-related software behavior
+- testing and debugging of robot movement and transitions
 - integration of control logic with the overall robotic system
 
-## System Features
-- Autonomous line following
-- Battery monitoring
-- Self-charging docking behavior
-- Embedded control using Arduino
-- Integrated hardware and software workflow
+## System Architecture
+The robot system is built around three major subsystems:
+
+### 1. Sensing Subsystem
+- IR sensor array for line detection
+- battery voltage sensing through resistor divider and Arduino ADC
+
+### 2. Control Subsystem
+- Arduino UNO as the main controller
+- state-based logic for navigation, docking, charging, and resume operation
+
+### 3. Actuation and Power Subsystem
+- L298N motor driver
+- DC geared motors and chassis
+- 7.4V Li-ion battery pack
+- Qi wireless charging dock
 
 ## Technologies Used
 - Arduino / Embedded C++
-- Sensors for line detection
-- Motor control logic
-- Battery monitoring logic
-- Docking and charging system integration
+- IR line sensors
+- Arduino ADC for battery monitoring
+- L298N motor driver
+- Qi wireless charging integration
+- state-machine-based control logic
 
-## Repository Contents
-- Arduino code for the robot control system
-- Supporting project documentation
-- Images / diagrams / additional materials if included
-
-## Project Context
-This project was developed as part of an academic robotics and automation project, with contributions spanning both hardware implementation and software development.
-
-## Note
-This repository is intended to document the project and my contribution to the collaborative software development work involved in the system.
+## Repository Structure
+```text
+Autonomous-Line-Following-Robot/
+├── README.md
+├── arduino_code/
+│   └── main.ino
+├── docs/
+│   ├── system_overview.md
+│   └── dependencies.md
+├── results/
+│   ├── demo_notes.md
+│   └── demo screenshots / result visuals
+└── data/
+    └── supporting data notes if included
