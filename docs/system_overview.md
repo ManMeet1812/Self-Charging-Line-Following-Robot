@@ -36,7 +36,7 @@ The goal of the system is to demonstrate how an autonomous mobile robot can comb
 The software development was completed collaboratively by **Manmeet Kaur** and **Kalu Orji**. The codebase was developed through shared implementation, debugging, testing, and iterative refinement rather than fully separate software modules.
 
 ## Hardware Contribution
-The hardware side of the project was completed by **Dhvani Parikh** and **Aayushi Parekh**, including the physical robot and docking station setup.
+The hardware side of the project was completed by **Dhvani Parikh** and **Abhirami Chandran**, including the physical robot and docking station setup.
 
 ## Control Workflow
 A simplified workflow of the system is:
