@@ -1,5 +1,5 @@
-/*
-  self_charging_line_follower.ino
+
+##  self_charging_line_follower.ino
   Autonomous Line-Following Robot with Self-Charging Dock
 
   Project Summary:
@@ -26,4 +26,4 @@
 
   Note:
   This file represents the main Arduino control logic for the project.
-*/
+
