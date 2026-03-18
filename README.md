@@ -13,7 +13,7 @@ This project was completed as a team effort.
 - **Manmeet Kaur** — Software development
 - **Kalu Orji** — Software development
 - **Dhvani Parikh** — Hardware development
-- **Aayushi Parekh** — Hardware development
+- **Abhirami Chandran** — Hardware development
 
 ## My Contribution
 My contribution focused on the **software development** side of the project in collaboration with **Kalu Orji**.
